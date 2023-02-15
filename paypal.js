@@ -52,9 +52,6 @@ paypalProofGen = () => {
         valuePrice = `$${price} USD`
     } else if (category == "gpb") {
         valuePrice = `Â£${price} GPB`
-    
-    } else if (category == "pln") {
-        valuePrice = `pln${price} PLN`
     }
 
 
